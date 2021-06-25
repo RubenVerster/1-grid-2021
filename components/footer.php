@@ -1,4 +1,4 @@
-</div>
+<link rel="stylesheet" type="text/css" href="css/footer.css" media="screen" />
 
 <footer class="bg-dark text-light p-3 d-flex flex-column flex-lg-row justify-content-lg-center">
     <div class="col-lg-4">
@@ -45,11 +45,11 @@
             <div>
                 <i class="far fa-envelope mr-2 text-info"></i><span><a class="lnkSupportEmail text-light"
                         aria-label="support email"
-                        href="mailto:<?php echo $supportEmail ?>">
-                        <?php echo $supportEmail ?></a></span>
+                        href="mailto:support@1-grid.com">
+                        support@1-grid.com</a></span>
             </div>
             <div>
-                <i class="far fa-comment-alt mr-2 text-info"></i><span><a data-role="open-live-chat-popup"
+                <i class="far fa-comment-alt mr-2 text-info"></i> <span><a data-role="open-live-chat-popup"
                         class="lnkLiveChatStandalone text-light" href="#">Live chat</a></span>
             </div>
         </div>
@@ -98,8 +98,8 @@
 
 </div>
 <div class="border-top bg-dark p-3 d-flex justify-content-between">
-    <img width="100" height="42"
-        src="<?php echo FROOT . '/media/1-grid-logo.png' ?>"
+    <img width="100" height="55"
+        src="/img/1-grid-logo-white.png"
         alt="1-grid logo">
     <div class="text-right">
         <div class="text-light">Copyright 2021</div>
@@ -158,68 +158,13 @@
     }) : window.addEventListener("load", loadDeferredStyles);
 </script>
 
-<script
-    src='<?php echo FROOT .'/libs/js/modernizr-custom-webp.js'?>'>
-</script>
-<!--[if !(IE 8)]><!-->
-<script src='<?php echo FROOT .'/libs/js/jquery.min.js'?>'>
-</script>
-<!--<![endif]-->
-<script
-    src='<?php echo FROOT .'/libs/js/jquery.validate.min.js'?>'>
-</script>
-<script
-    src='<?php echo FROOT .'/assets/js/dist/extra/form-validation.js?v=2021-05-11'?>'>
-</script>
-<script src="<?php echo FROOT . '/libs/js/popper.min.js'?>">
-</script>
-
-<script
-    src="<?php echo FROOT .'/libs/js/bootstrap.4.3.1.min.js'?>">
-</script>
-
-
-<script
-    src="<?php echo FROOT .'/libs/js/sweetalert2.all.min.js'?>">
-</script>
-
-
-
-<script
-    src="<?php echo FROOT . '/libs/js/lazyload.min.js?v=2020-10-28'?>">
-</script>
-
-<script
-    src="<?php echo FROOT . '/libs/js/owl.carousel.min.js'?>">
-</script>
-<script
-    src="<?php echo FROOT . '/libs/js/jquery.countdown.min.js'?>">
-</script>
-<script
-    src="<?php echo FROOT . '/libs/js/animatescroll.min.js'?>">
-</script>
-<script src='<?php echo FROOT . '/libs/js/slick.min.js'?>'>
-</script>
-<script
-    src='<?php echo FROOT . '/libs/js/loadingoverlay.min.js'?>'>
-</script>
-
 <!--Page specific JS-->
 <?php if (isset($pageScriptIncludes)) {
     echo $pageScriptIncludes;
 } ?>
-<!--[if !(IE 8)]><!-->
-<script
-    src='<?php echo FROOT . '/assets/js/dist/main.min.js?v=2021-05-12B'?>'>
-</script>
-<!--<![endif]-->
-<script defer
-    src='<?php echo FROOT . '/assets/js/dist/extra/network-status.js?v=2020-05-28'?>'>
-</script>
-<script
-    src='<?php echo FROOT . '/assets/js/dist/extra/forms.js?v=2020-08-20'?>'>
-</script>
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 </html>

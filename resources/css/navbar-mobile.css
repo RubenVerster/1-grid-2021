@@ -1,0 +1,64 @@
+.small-icon {
+  font-size: 25px;
+  color: #fff;
+  padding: 0px 7px; }
+
+.top-header {
+  position: fixed;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 1px 1px 0px #333;
+  z-index: 998; }
+
+.icon-group {
+  position: relative; }
+  .icon-group img {
+    position: absolute; }
+
+.sidenav-btn {
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 1px 1px 0px #333;
+  z-index: 998; }
+
+.sidenav {
+  position: fixed;
+  height: 100%;
+  width: 0;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.25s; }
+
+i {
+  font-weight: 200; }
+
+.sidenav a {
+  text-decoration: none !important;
+  font-size: 1rem;
+  color: #555;
+  transition: 0.2s; }
+
+.sidenav a:hover {
+  color: #20bfdd; }
+
+.sidenav .closebtn {
+  color: #777;
+  font-size: 25px; }
+
+.menu-item {
+  padding: 10px 0px; }
+  .menu-item .item-icon {
+    font-size: 1.5rem; }
+
+.sub-menu-link {
+  color: #20bfdd !important;
+  cursor: pointer; }
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+  .sidenav a {
+    font-size: 18px; } }

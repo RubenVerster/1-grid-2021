@@ -1,47 +1,34 @@
 <?php
+  /**
+   * Page Meta Details
+   */
+  $pageMetaTitle = "Experts In Web Hosting, Domain Registration And Web Security | 1-grid";
+  $pageMetaDescription = "With 20 years experience getting small businesses online, we offer expert knowledge & support in Web Hosting, Domain Registration, Company Registration & more.";
+  $pageCanonical = "https://1-grid.com/";
 
-/**
- * Page Meta Details
- */
-
-$pageMetaTitle = "Experts In Web Hosting, Domain Registration And Web Security | 1-grid";
-$pageMetaDescription = "With 20 years experience getting small businesses online, we offer expert knowledge & support in Web Hosting, Domain Registration, Company Registration & more.";
-$pageCanonical = "https://1-grid.com/";
-
-/**
- * Page Social Details
- */
-
-$pageSocialSitename = "1-grid.com";
-$pageSocialTitle = "Experts In Web Hosting, Domain Registration And Web Security | 1-grid";
-$pageSocialDescription = "With 20 years experience getting small businesses online, we offer expert knowledge & support in Web Hosting, Domain Registration, Company Registration & more.";
-$pageSocialUri = "https://1-grid.com/";
-$pageSocialShareImage = 'https://1-grid.com/media/social/1-grid-south-africa.jpg';
-$pageSocialTwitterTitle = "Experts In Web Hosting, Domain Registration And Web Security | 1-grid";
-$pageSocialTwitterDescription = "With 20 years experience getting small businesses online, we offer expert knowledge & support in Web Hosting, Domain Registration, Company Registration & more.";
-$pageSocialShareTwitterImage = 'https://1-grid.com/media/social/1-grid.jpg';
-
-/**
- * Page specific css
- */
-$pageCssIncludes = '<link rel="stylesheet" media="all" href="/assets/css/widgets/home-page.css" />';
-
-/**
- * Page Script Includes
- */
-
-$pageScriptIncludes = "";
+  /**
+   * Page Social Details
+   */
+  $pageSocialSitename = "1-grid.com";
+  $pageSocialTitle = "Experts In Web Hosting, Domain Registration And Web Security | 1-grid";
+  $pageSocialDescription = "With 20 years experience getting small businesses online, we offer expert knowledge & support in Web Hosting, Domain Registration, Company Registration & more.";
+  $pageSocialUri = "https://1-grid.com/";
+  $pageSocialShareImage = 'https://1-grid.com/media/social/1-grid-south-africa.jpg';
+  $pageSocialTwitterTitle = "Experts In Web Hosting, Domain Registration And Web Security | 1-grid";
+  $pageSocialTwitterDescription = "With 20 years experience getting small businesses online, we offer expert knowledge & support in Web Hosting, Domain Registration, Company Registration & more.";
+  $pageSocialShareTwitterImage = 'https://1-grid.com/media/social/1-grid.jpg';
 ?>
 
-<?php include 'includes/header.php'; ?>
+<link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
 
-<?php include 'includes/navbar-mobile.php'; ?>
+<?php include 'components/header.php'; ?>
 
-<div class="main-content">
+<?php include 'components/navbar-desktop.php'; ?>
+<?php include 'components/navbar-mobile.php'; ?>
 
 <section class="pt-0">
 
-  <div class="overlay-container hero-container">
+  <div class="overlay-container" id="hero-container">
     <div class="overlay-box overlay-img hero-img">
   </div>
 
@@ -144,14 +131,14 @@ $pageScriptIncludes = "";
     </div>
   </div>
 
-  <div class="section-action d-flex justify-content-center align-items-lg-center flex-column m-3">
+  <div id="hero-action" class="section-action  d-flex justify-content-center align-items-lg-center flex-column m-3">
   <div class="row mb-0 mb-lg-5 mt-3 mt-lg-5 pt-3">
           <div class="text-left col-lg-12 title-text">
               <span class="text-uppercase hero-label p-2">Get online with us</span>
               <h2 class="h2-lg pt-2 w-75">How would you like to get online? <a href="#" class="chevron ml-2"><span>&rsaquo;</span></a></h2>
           </div>
       </div>
-      </div>
+    </div>
 </section>
 
 <section>
@@ -186,7 +173,7 @@ $pageScriptIncludes = "";
       <i class="fas fa-chevron-right section-action-icon"></i>
     </div>
       <img class="section-action-img img-responsive
-      " src=<?php echo FROOT . '/webp/home-page/mobile-devices.png' ?>
+      " src=<?php echo '/img/home-page/mobile-devices.png' ?>
       alt="mobile devices" />
   </div>
 </section>
@@ -327,11 +314,11 @@ $pageScriptIncludes = "";
     <a target="_blank" rel="noopener noreferrer"
       href="https://www.google.com/search?q=1-grid&oq=1-grid+reviews#lrd=0x1dcc5d9012e1d7b5:0x7c925818c86ba776,1">
       <img class="img-responsive"
-        src="<?php echo FROOT . '/media/home-b/GReview.png?v=2021-05-14' ?>"
+        src="<?php echo '/img/home-page/GReview.png' ?>"
         title="Google reviews" alt="google reviews icon" width="" height="56" /></a>
     <a target="_blank" rel="noopener noreferrer" href='https://www.hellopeter.com/1-grid'>
       <img class="img-responsive"
-        src="<?php echo FROOT . '/media/hp-widget/hp-isp.png?v=2021-05-10b' ?>"
+        src="<?php echo '/img/home-page/hp-isp.png' ?>"
         title="hellopeter" alt="hellopeter icon" width="" height="" /></a>
 
   </div>
@@ -343,25 +330,25 @@ $pageScriptIncludes = "";
     <a target="_blank" rel="noopener noreferrer"
       href="https://www.capetalk.co.za/podcasts/140/the-kieb68no-ka5b4mmies-show/222095/aspiring-entrepreneurs-get-a-digital-push">
       <img class="img-responsive mb-3"
-        src="<?php echo FROOT . '/media/home-b/capetalk.jpg' ?>"
+        src="<?php echo '/img/home-page/capetalk.png' ?>"
         title="CapeTalk" alt="CapeTalk" width="125" height="58" /></a>
     <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Qf9nwkgtlk4">
       <img class="img-responsive mb-3"
-        src="<?php echo FROOT . '/media/home-b/expresso.jpg' ?>"
+        src="<?php echo '/img/home-page/expresso.png' ?>"
         title="Expresso" alt="Expresso" width="145" height="46" /></a>
     <a target="_blank" rel="noopener noreferrer"
       href="https://www.702.co.za/podcasts/84/the-best-of-late-night-talk/87518/opportunities-for-young-tech-smart-individuals">
       <img class="img-responsive mb-3"
-        src="<?php echo FROOT . '/media/home-b/702.jpg' ?>"
+        src="<?php echo '/img/home-page/702.png' ?>"
         title="702" alt="702 icon" width="105" height="47"></a>
     <a target="_blank" rel="noopener noreferrer"
       href="https://omny.fm/shows/kfm-drive/bizboost-spiffy-kitchens-and-cupboards">
       <img class="img-responsive"
-        src="<?php echo FROOT . '/media/home-b/KFM-Logo.png' ?>"
+        src="<?php echo '/img/home-page/KFM-Logo.png' ?>"
         title="KFM" alt="KFM icon" width="115" height="46"></a>
   </div>
 
 </section>
 
 
-<?php include 'includes/footer.php';
+<?php include 'components/footer.php';

@@ -6,11 +6,11 @@ const phpExpress = require('php-express')({
   binPath: 'php'
 })
 
-app.set('views', './src')
+app.set('views', './')
 app.engine('php', phpExpress.engine)
 app.set('view engine', 'php')
 
-app.use(express.static('public'))
+app.use(express.static('resources'))
 
 app.use((req, res, next) => {
   res.setHeader('Application-Control-Allow-Origin', '*')
