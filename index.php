@@ -30,14 +30,10 @@ $pageCssIncludes = '<link rel="stylesheet" media="all" href="/assets/css/widgets
  * Page Script Includes
  */
 
-$pageScriptIncludes = "
-<script src='/libs/js/psl.min.js'></script>
-<script src='/libs/js/counter.min.js'></script>
-<script src='/assets/js/dist/extra/home-b.js?v=11'></script>
-<!--<script src='/assets/js/dist/extra/hellopeter-badge.js?v=0' defer></script>-->";
+$pageScriptIncludes = "";
 ?>
 
-<?php include 'includes/header_v314.php'; ?>
+<?php include 'includes/header.php'; ?>
 
 <?php include 'includes/navbar-mobile.php'; ?>
 
@@ -368,4 +364,4 @@ $pageScriptIncludes = "
 </section>
 
 
-<?php include 'includes/footer_v314.php';
+<?php include 'includes/footer.php';
