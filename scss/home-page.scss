@@ -1,0 +1,245 @@
+.overlay-container {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+}
+
+.hero-container {
+  height: 60vh;
+}
+.overlay-box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.overlay {
+  z-index: 9;
+  background-color: rgba($color: #444, $alpha: 0.5);
+}
+
+.overlay-blue {
+  z-index: 9;
+  background-color: #168aad;
+}
+.overlay-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  background-size: cover;
+}
+
+.wb-img {
+  background-image: url('/webp/home-page/website-builder.jpg');
+}
+
+.hero-img {
+  background-image: url('/webp/home-page/home-hero-section.jpg');
+}
+
+.email-img {
+  background-image: url('/webp/home-page/email-essential.jpg');
+}
+
+.privacy-protection-img {
+  background-image: url('/webp/home-page/privacy-protection.jpg');
+}
+.servers-img {
+  background-image: url('/webp/home-page/servers.jpg');
+}
+
+.search-button {
+  background-color: #fff;
+  border: none;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  padding: 15px;
+  max-width: 60px;
+  width: 100%;
+}
+
+.hero-label {
+  padding: 5px;
+  background-color: #20bfdd;
+  color: #fff;
+  font-weight: 100;
+}
+
+.chevron {
+  display: inline-block;
+  padding: 0px 12px;
+  background-color: #20bfdd;
+  color: #fff;
+  text-decoration: none;
+}
+
+.section-label {
+  background-color: #fff;
+  padding: 0.2rem 0.5rem;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.section-title {
+  font-size: 3rem;
+  color: #fff;
+  margin: 1rem 0;
+  line-height: 1.1;
+}
+
+.section-title-sml {
+  font-size: 2rem;
+  color: #fff;
+  margin: 1rem 0;
+  line-height: 1.1;
+}
+
+.section-description {
+  color: #fff;
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.section-banner {
+  z-index: 11;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #555;
+  border-radius: 5px;
+  box-shadow: #555 0px 5px 15px;
+  padding: 1rem;
+  width: 88%;
+  transform: translateY(-50%);
+  max-width: 600px;
+}
+
+.banner-label {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  background-color: #20bfdd;
+  padding: 0.2rem 0.5rem;
+  text-transform: uppercase;
+}
+
+.banner-icon {
+  border-radius: 50%;
+  background-color: #ebedee;
+}
+.banner-text {
+  font-size: 1rem;
+}
+.banner-action {
+  color: #20bfdd;
+  font-size: 0.8rem;
+}
+
+.section-action {
+  height: 60vh;
+  width: 100%;
+  z-index: 12;
+}
+
+.section-action-icon {
+  padding: 10px;
+  color: #fff;
+  background-color: #20bfdd;
+}
+
+.section-action-title {
+  max-width: 70%;
+  font-size: 2rem;
+  color: #333;
+  line-height: 1.3;
+  font-weight: 900;
+}
+
+.section-action-text {
+  font-size: 1.3rem;
+  color: #20bfdd;
+  text-transform: uppercase;
+}
+
+.section-action-img {
+  position: absolute;
+  max-width: 250px;
+  transform: translate(77%, 42%);
+  @media (min-width: 992px) {
+    transform: translate(77%, 77%);
+  }
+}
+
+.skew-box {
+  background-color: rgba($color: #fff, $alpha: 1);
+  border-radius: 20px;
+  position: absolute;
+  top: 30%;
+  left: -1%;
+  height: 24%;
+  width: 108%;
+  transform: rotate(1deg) skew(-15deg, 3deg);
+  z-index: 9;
+}
+
+.section-action-email {
+  z-index: 11;
+  position: relative;
+  top: -17%;
+}
+
+.email-icon {
+  border-radius: 50%;
+  background-color: #20bfdd;
+  color: #fff;
+}
+
+.section-action-subtext {
+  font-size: 1rem;
+  color: #555;
+}
+
+.section-banner-email {
+  z-index: 11;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  color: #555;
+  border-radius: 5px;
+  box-shadow: #555 0px 5px 15px;
+  padding: 1rem;
+  width: 88%;
+  transform: translateY(-50%);
+  max-width: 600px;
+
+  .banner-text {
+    font-size: 0.95rem;
+  }
+}
+
+.email-price {
+  font-size: 1.5rem;
+}
+
+.section-email-text {
+  margin-top: -2rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+.multi-overlay-container {
+  width: 100%;
+  height: 33vh;
+  position: relative;
+}
+
+.multi-explore {
+  position: absolute;
+  bottom: 0.5rem;
+}
