@@ -1,8 +1,10 @@
 <link rel="stylesheet" type="text/css" href="css/navbar-mobile.css" media="screen" />
+<script src="/js/navbar-mobile.js"></script>
 <!-- mobile sidenavbar -->
 <div id="mySidenav" class="sidenav d-lg-none">
     <div class="d-flex justify-content-between p-3 border-bottom">
-        <img width="100" height="42" src="<?php echo '/media/1-grid-logo.png' ?>" alt="1-grid logo">
+        <img width="100" height="42" src="<?php echo '/img/1-grid-logo.png' ?>" alt="1-grid logo">
+        
         <i class="d-flex fas closebtn fa-times mr-3 align-self-center" onclick="closeNav()" id="mySidenavBtn" onclick="openNav()"></i>
     </a>
     </div>
@@ -28,7 +30,7 @@
 <!-- submenu for domains -->
 <div id="internalDomainsSidenav" class="sidenav" style="z-index: 999999">
     <div class="d-flex justify-content-between p-3 border-bottom">
-        <img width="100" height="42" src="<?php echo '/media/1-grid-logo.png' ?>" alt="1-grid logo">
+        <img width="100" height="42" src="<?php echo 'img//1-grid-logo.png' ?>" alt="1-grid logo">
         
     </div>
 
@@ -57,7 +59,7 @@
 <nav class="d-lg-none top-header p-2 pt-4 w-100 d-flex justify-content-between align-items-center align-self-center">
     <div class="icon-group">
         <i class="fas fa-bars small-icon sidenav-btn mr-2" id="mySidenavBtn" onclick="openNav()"></i>
-        <img width="80" height="33" src="<?php echo '/media/1-grid-logo.png' ?>" alt="1-grid logo">
+        <img width="80" height="33" src="<?php echo '/img/1-grid-logo.png' ?>" alt="1-grid logo">
     </div>
     <div>
         <i class="fas fa-phone-alt small-icon"></i>

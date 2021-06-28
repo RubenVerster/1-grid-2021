@@ -37,8 +37,8 @@
       <div class="container mb-2 ml-2 mr-2">
 
         <div class="text-left pt-3 pt-md-0 pt-lg-5 pb-3">
-          <h3 class="text-uppercase text-light">Domain Register & Transfer</h3>
-          <h1 class="mb-2 mb-lg-4 text-light">Get a Domain Name for Your Business</h1>
+          <h3 class="text-uppercase text-light hero-banner">Domain Register & Transfer</h3>
+          <h1 class="mb-2 mb-lg-4 text-light hero-title w-75">Get a Domain Name for Your Business</h1>
         </div>
         
         <div class="row">
@@ -134,8 +134,8 @@
   <div id="hero-action" class="section-action  d-flex justify-content-center align-items-lg-center flex-column m-3">
   <div class="row mb-0 mb-lg-5 mt-3 mt-lg-5 pt-3">
           <div class="text-left col-lg-12 title-text">
-              <span class="text-uppercase hero-label p-2">Get online with us</span>
-              <h2 class="h2-lg pt-2 w-75">How would you like to get online? <a href="#" class="chevron ml-2"><span>&rsaquo;</span></a></h2>
+              <span class="text-uppercase hero-label">Get online with us</span>
+              <a href="#" ><h2 class="pt-2 w-75 hero-title text-secondary">How would you like to get online?<i class="fas fa-chevron-right chevron"></i></h2></a>
           </div>
       </div>
     </div>
@@ -167,10 +167,10 @@
   </div>
 
   <div class="section-action d-flex justify-content-center align-items-lg-center flex-column m-3">
-    <div class="section-action-title font-weight-bold">Free Professional Layout</div>
+    <h2 class="pt-2 w-75 hero-title text-secondary text-lg-center">Free Professional Layout</h2>
     <div class="d-flex align-items-center mt-2">
       <span class="mr-2 section-action-text">Get Started</span>
-      <i class="fas fa-chevron-right section-action-icon"></i>
+      <i class="fas fa-chevron-right chevron"></i>
     </div>
       <img class="section-action-img img-responsive
       " src=<?php echo '/img/home-page/mobile-devices.png' ?>
@@ -182,7 +182,7 @@
   <div class="overlay-container">
     <div class="overlay-box overlay-img email-img">
     </div>
-    <div class="overlay-box overlay">
+    <div class="overlay-box overlay-red">
       <div class=" m-3 align-items-lg-center">
 
         <span class="section-label font-weight-bold">Business Essential</span>
@@ -196,8 +196,8 @@
   <div class="skew-box"></div>
 
   <div class="section-action p-3 mb-5 d-flex flex-column align-items-lg-center">
-    <div class="section-action-email position-relative mb-4">
-      <div class="section-action-title font-weight-light text-uppercase mb-5">Features</div>
+    <div class="section-action-email position-relative mb-2">
+      <div class="section-action-title font-weight-light text-uppercase">Features</div>
       <div class="mt-3">
         <i class="mr-2 fas fa-chevron-right align-self-center email-icon p-2 mb-2"></i>
         <span class="section-action-subtext">Collaboration Tools</span>
@@ -219,7 +219,7 @@
         <div class="banner-action font-weight-bold">Includes FREE .co.za domain</div>
       </div>
       <div class="justify-self-center align-self-center flex-column text-center">
-        <div class="font-weight-bold email-price">R69</div>
+        <div class="email-price">R69</div>
         <div>Month</div>
       </div>
     </div>
@@ -230,13 +230,13 @@
         <div class="banner-action font-weight-bold text-danger">Excludes free .co.za domain</div>
       </div>
       <div class="justify-self-center align-self-center flex-column text-center">
-        <div class="font-weight-bold email-price">R49</div>
+        <div class="email-price">R49</div>
         <div>Month</div>
       </div>
     </div>
     <div class="section-email-text">
       <span class="mr-2 text-danger">Explore More</span>
-      <i class="fas fa-chevron-right section-action-icon bg-danger"></i>
+      <i class="fas fa-chevron-right chevron bg-danger"></i>
     </div>
   </div>
 </div>
@@ -260,7 +260,7 @@
         <div class="section-description w-80">Encrypt your data and avoid the 'Not Secure' warnings</div>
         <div class="d-flex align-items-center mt-2 multi-explore">
           <span class="mr-2 section-action-text text-light">Explore More</span>
-          <i class="fas fa-chevron-right section-action-icon"></i>
+          <i class="fas fa-chevron-right chevron"></i>
         </div>
       </div>
     </div>
@@ -280,7 +280,7 @@
         </div>
         <div class="d-flex align-items-center mt-2 multi-explore">
           <span class="mr-2 section-action-text text-light">Explore More</span>
-          <i class="fas fa-chevron-right section-action-icon bg-light text-dark"></i>
+          <i class="fas fa-chevron-right chevron bg-light text-dark"></i>
         </div>
       </div>
     </div>
@@ -299,7 +299,7 @@
         <div class="section-description w-80">The highest specification dedicated server available</div>
         <div class="d-flex align-items-center mt-2 multi-explore">
           <span class="mr-2 section-action-text text-light">Explore More</span>
-          <i class="fas fa-chevron-right section-action-icon"></i>
+          <i class="fas fa-chevron-right chevron"></i>
         </div>
       </div>
     </div>
@@ -307,7 +307,7 @@
 
 </section>
 
-<section class="d-flex flex-column flex-lg-row justify-content-center text-center">
+<section class="d-flex flex-column flex-lg-row justify-content-center text-center mb-5 mt-5">
   <div class="d-flex flex-column justify-content-between col-lg-4 mb-5">
     <h2 class="mb-3">Reviewed On</h2>
 
@@ -349,6 +349,5 @@
   </div>
 
 </section>
-
 
 <?php include 'components/footer.php';

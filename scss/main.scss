@@ -2,8 +2,16 @@ body,
 html {
   padding: 0;
   margin-bottom: 0;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+  color: #333;
+  &:hover {
+    text-decoration: none;
+    color: #333;
+  }
 }

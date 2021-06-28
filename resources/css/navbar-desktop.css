@@ -1,0 +1,17 @@
+.dropdown-item {
+  border-bottom: solid 1px #555;
+  color: #20bfdd;
+  font-size: 1.2rem;
+  padding: 1rem; }
+
+.menu-item-dsc {
+  font-size: 1rem;
+  color: #555; }
+
+.dropdown-item:last-child {
+  border-bottom: none; }
+
+.core-nav a {
+  color: #333; }
+  .core-nav a:hover {
+    color: #20bfdd; }

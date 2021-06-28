@@ -1,4 +1,6 @@
-<div class="sticky-top bg-light">
+<link rel="stylesheet" type="text/css" href="css/navbar-desktop.css" media="screen" />
+
+<div class="sticky-top bg-light mt-2  d-none d-md-block">
 <div class="container d-none d-lg-block ">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-4 justify-content-center align-items-center">
@@ -8,24 +10,25 @@
               alt="1-grid logo" />
           </a>
         </div>
-        <div class="col-md-8">
-          <ul class="top-menu-container d-flex justify-content-end align-items-center">
-            <li class="network-status"><a href="https://1-grid.com/client/serverstatus.php"> <span class="network-md"><i
-                    class="fas fa-network-wired"></i>
-                  Network <span id="network"><i class="icon-ok-circled"></i></span></span> <span class="network-sm"
-                  id="network-sm"><i class="icon-ok-circled"></i> Network
-                </span></a></li>
-            <li class="support"><a href="https://1-grid.com/knowledge"><i class="fas fa-book"></i> Self-Help</a></li>
-            <li class="customer-login"><a href="https://1-grid.com/client/clientarea.php"><i class="far fa-user"></i>
-                Customer Login</a></li>
-          </ul>
+        <div class="col-md-8 core-nav">
+          <div class="d-flex justify-content-end">
+            <div class="me-3 text-dark">
+              <a href="https://1-grid.com/knowledge"><i class="fas fa-1x fa-book me-1"></i>Self-Help</a>
+            </div>
+            <div class="me-3"><a href="https://1-grid.com/client/clientarea.php">
+              <i class="far fa-1x fa-user me-1"></i>Customer Login</a>
+            </div>
+            <div class="me-3"><a href="https://1-grid.com/client/serverstatus.php">
+              <i class="fas fa-1x fa-network-wired me-1"></i><span class="me-1">Network</span><i class="fas fa-check-circle"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-</div>
-<div class="main-header pt-0 pt-md-4 pb-0 pb-md-2 d-none d-lg-block">
+
+<div class="pt-0 pb-0 d-none d-lg-block">
   <nav id="navbar-main" class="navbar navbar-expand-md navbar-light d-md-none d-lg-block">
-    <div class="container">
-      <div class="collapse navbar-collapse" id="navbar-main-v2">
+      <div class="collapse navbar-collapse justify-content-center" id="navbar-main-v2">
         <ul class="navbar-nav mr-auto">
      
           <li class="nav-item">
@@ -179,8 +182,8 @@
             </div>
           </li>
         </ul>
-      </div>
     </div>
   </nav>
+</div>
 </div>
 </div>
