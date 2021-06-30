@@ -121,7 +121,7 @@
                           <option>.coach</option>
                           <option>.cloud</option>
                       </select> -->
-                  <button data-role="submit-domain-search" class="search-button " type="submit"><i class="fas fa-search"></i></button>
+                  <button data-role="submit-domain-search" class="search-button " type="submit"><i class="fas fa-search text-secondary"></i></button>
                 </div>
             </form>
           </div>
@@ -135,7 +135,7 @@
   <div class="row mb-0 mb-lg-5 mt-3 mt-lg-5 pt-3">
           <div class="text-left col-lg-12 title-text">
               <span class="text-uppercase hero-label">Get online with us</span>
-              <a href="#" ><h2 class="pt-2 w-75 hero-title text-secondary">How would you like to get online?<i class="fas fa-chevron-right chevron"></i></h2></a>
+              <a href="#" ><h2 class="pt-2 w-75 hero-title text-secondary hover-scale">How would you like to get online?<i class="fas fa-chevron-right chevron"></i></h2></a>
           </div>
       </div>
     </div>
@@ -163,14 +163,18 @@
       <div class="banner-text">Choose The Right Package For Your Business</div>
       <div class="banner-action mt-2 font-weight-bold">Shipped with a FREE domain</div>
     </div>
-    <i class="fas fa-chevron-right w-10 align-self-center banner-icon p-3"></i>
+    <a href="https://1-grid.com/website-builder/" class="align-self-center">
+    <i class="fas fa-chevron-right w-10 align-self-center banner-icon p-3 hover-scale"></i>
+  </a>
   </div>
 
   <div class="section-action d-flex justify-content-center align-items-lg-center flex-column m-3">
     <h2 class="pt-2 w-75 hero-title text-secondary text-lg-center">Free Professional Layout</h2>
-    <div class="d-flex align-items-center mt-2">
+    <div class="d-flex align-items-center mt-2 hover-scale">
+      <a href="https://1-grid.com/website-builder/">
       <span class="mr-2 section-action-text">Get Started</span>
       <i class="fas fa-chevron-right chevron"></i>
+      </a>
     </div>
       <img class="section-action-img img-responsive
       " src=<?php echo '/img/home-page/mobile-devices.png' ?>
@@ -234,9 +238,11 @@
         <div>Month</div>
       </div>
     </div>
-    <div class="section-email-text">
-      <span class="mr-2 text-danger">Explore More</span>
-      <i class="fas fa-chevron-right chevron bg-danger"></i>
+    <div class="section-email-text hover-scale">
+      <a href="https://1-grid.com/email-for-business/">
+        <span class="mr-2 text-danger">Explore More</span>
+        <i class="fas fa-chevron-right chevron bg-danger"></i>
+      </a>
     </div>
   </div>
 </div>
@@ -258,9 +264,11 @@
           Privacy & Protection
         </div>
         <div class="section-description w-80">Encrypt your data and avoid the 'Not Secure' warnings</div>
-        <div class="d-flex align-items-center mt-2 multi-explore">
-          <span class="mr-2 section-action-text text-light">Explore More</span>
-          <i class="fas fa-chevron-right chevron"></i>
+        <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
+          <a href="https://1-grid.com/website-security/">
+            <span class="mr-2 section-action-text text-light">Explore More</span>
+            <i class="fas fa-chevron-right chevron"></i>
+            </a>
         </div>
       </div>
     </div>
@@ -278,9 +286,11 @@
         </div>
         <div class="section-description w-80">WordPress-ready hosting for any website. Secure and reliable local network
         </div>
-        <div class="d-flex align-items-center mt-2 multi-explore">
+        <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
+          <a href="https://1-grid.com/web-hosting/">
           <span class="mr-2 section-action-text text-light">Explore More</span>
           <i class="fas fa-chevron-right chevron bg-light text-dark"></i>
+            </a>
         </div>
       </div>
     </div>
@@ -291,15 +301,16 @@
     </div>
     <div class="overlay-box overlay">
       <div class="p-3 align-items-lg-center h-100">
-
         <span class="section-label font-weight-bold">Enterprise Hosting</span>
         <div class="section-title-sml font-weight-bold">
           Servers
         </div>
         <div class="section-description w-80">The highest specification dedicated server available</div>
-        <div class="d-flex align-items-center mt-2 multi-explore">
-          <span class="mr-2 section-action-text text-light">Explore More</span>
-          <i class="fas fa-chevron-right chevron"></i>
+        <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
+          <a href="https://1-grid.com/enterprise-server-south-africa/">
+            <span class="mr-2 section-action-text text-light">Explore More</span>
+            <i class="fas fa-chevron-right chevron"></i>
+            </a>
         </div>
       </div>
     </div>
@@ -313,11 +324,11 @@
 
     <a target="_blank" rel="noopener noreferrer"
       href="https://www.google.com/search?q=1-grid&oq=1-grid+reviews#lrd=0x1dcc5d9012e1d7b5:0x7c925818c86ba776,1">
-      <img class="img-responsive"
+      <img class="img-responsive hover-scale"
         src="<?php echo '/img/home-page/GReview.png' ?>"
         title="Google reviews" alt="google reviews icon" width="" height="56" /></a>
     <a target="_blank" rel="noopener noreferrer" href='https://www.hellopeter.com/1-grid'>
-      <img class="img-responsive"
+      <img class="img-responsive hover-scale"
         src="<?php echo '/img/home-page/hp-isp.png' ?>"
         title="hellopeter" alt="hellopeter icon" width="" height="" /></a>
 
@@ -329,21 +340,21 @@
 
     <a target="_blank" rel="noopener noreferrer"
       href="https://www.capetalk.co.za/podcasts/140/the-kieb68no-ka5b4mmies-show/222095/aspiring-entrepreneurs-get-a-digital-push">
-      <img class="img-responsive mb-3"
+      <img class="img-responsive mb-3 hover-scale"
         src="<?php echo '/img/home-page/capetalk.png' ?>"
         title="CapeTalk" alt="CapeTalk" width="125" height="58" /></a>
     <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Qf9nwkgtlk4">
-      <img class="img-responsive mb-3"
+      <img class="img-responsive hover-scale mb-3"
         src="<?php echo '/img/home-page/expresso.png' ?>"
         title="Expresso" alt="Expresso" width="145" height="46" /></a>
     <a target="_blank" rel="noopener noreferrer"
       href="https://www.702.co.za/podcasts/84/the-best-of-late-night-talk/87518/opportunities-for-young-tech-smart-individuals">
-      <img class="img-responsive mb-3"
+      <img class="img-responsive hover-scale mb-3"
         src="<?php echo '/img/home-page/702.png' ?>"
         title="702" alt="702 icon" width="105" height="47"></a>
     <a target="_blank" rel="noopener noreferrer"
       href="https://omny.fm/shows/kfm-drive/bizboost-spiffy-kitchens-and-cupboards">
-      <img class="img-responsive"
+      <img class="img-responsive hover-scale"
         src="<?php echo '/img/home-page/KFM-Logo.png' ?>"
         title="KFM" alt="KFM icon" width="115" height="46"></a>
   </div>

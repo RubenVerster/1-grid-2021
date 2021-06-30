@@ -1,5 +1,13 @@
-.support-title {
+.footer-title {
   font-weight: 600;
+}
+
+.footer-link {
+  &:hover {
+    transition: 0.3s;
+    padding-left: 0.5rem;
+    font-weight: 700;
+  }
 }
 
 .footer-bg {
@@ -8,4 +16,19 @@
 
 .c-rights {
   color: #a0a0a3;
+}
+
+.support-link {
+  &:hover {
+    transition: 0.3s;
+    color: #20bfdd;
+  }
+}
+
+.footer-icon {
+  color: #20bfdd;
+  &:hover {
+    transition: 0.3s;
+    color: #fff;
+  }
 }
