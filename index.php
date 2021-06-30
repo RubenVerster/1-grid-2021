@@ -141,7 +141,7 @@
     </div>
 </section>
 
-<section>
+<section  >
   <div class="overlay-container">
     <div class="overlay-box overlay-img wb-img">
     </div>
@@ -197,7 +197,7 @@
       </div>
     </div>
   </div>
-  <div class="skew-box"></div>
+  <div id="scrollTrigger" class="skew-box"></div>
 
   <div class="section-action p-3 mb-5 d-flex flex-column align-items-lg-center">
     <div class="section-action-email position-relative mb-2">

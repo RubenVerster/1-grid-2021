@@ -14,3 +14,14 @@ function openDomainNav() {
 function closeDomainsNav() {
   document.getElementById('internalDomainsSidenav').style.width = '0'
 }
+
+//handles adding and removing classes when a user scrolls past the hero section
+$(window).scroll(function () {
+  if ($(this).scrollTop() > 250) {
+    jQuery('.small-icon').addClass('text-secondary')
+    jQuery('#mobile-logo').attr('src', 'img/1-grid-logo.png')
+  } else {
+    jQuery('.small-icon').removeClass('text-secondary')
+    jQuery('#mobile-logo').attr('src', 'img/1-grid-logo-white.png')
+  }
+})
