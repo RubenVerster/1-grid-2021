@@ -320,7 +320,7 @@
 
 <section class="d-flex flex-column flex-lg-row justify-content-center text-center mb-5 mt-5">
   <div class="d-flex flex-column justify-content-between col-lg-4 mb-5">
-    <h2 class="mb-3">Reviewed On</h2>
+    <h2 class="mb-3 text-secondary">Reviewed On</h2>
 
     <a target="_blank" rel="noopener noreferrer"
       href="https://www.google.com/search?q=1-grid&oq=1-grid+reviews#lrd=0x1dcc5d9012e1d7b5:0x7c925818c86ba776,1">
@@ -336,7 +336,7 @@
 
   <div class="d-flex flex-column justify-content-between col-lg-4">
 
-    <h2 class="mb-3">Featured On</h2>
+    <h2 class="mb-4 text-secondary">Featured On</h2>
 
     <a target="_blank" rel="noopener noreferrer"
       href="https://www.capetalk.co.za/podcasts/140/the-kieb68no-ka5b4mmies-show/222095/aspiring-entrepreneurs-get-a-digital-push">
