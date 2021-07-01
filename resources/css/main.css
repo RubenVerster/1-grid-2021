@@ -14,6 +14,6 @@ a {
     color: #333; }
 
 .hover-scale {
-  transition: 0.3s; }
+  transition: 0s; }
   .hover-scale:hover {
     transform: scale(1.2); }

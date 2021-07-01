@@ -36,12 +36,12 @@
           </li>
 
           <li class="nav-item">
-            <a href="/vpn/" class="nav-link shine" data-new="New"> VPN <span></a>
+            <a href="https://1-grid.com/vpn/" class="nav-link shine" data-new="New"> VPN <span></a>
           </li>
 
 
           <li class="nav-item">
-            <a href="/email-for-business/" class="nav-link"> Business Email </a>
+            <a href="/email-for-business/" class="nav-link">Business Email</a>
           </li>
 
           <li class="nav-item dropdown">

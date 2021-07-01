@@ -44,15 +44,14 @@ $primaryColor: #20bfdd;
 i {
   font-weight: 200;
 }
-.sidenav a {
+.nav-link {
   text-decoration: none !important;
   font-size: 1rem;
   color: #555;
   transition: 0.2s;
-}
-
-.sidenav a:hover {
-  color: $primaryColor;
+  &:hover {
+    color: $primaryColor;
+  }
 }
 
 .sidenav .closebtn {
@@ -60,12 +59,8 @@ i {
   font-size: 25px;
 }
 
-.menu-item {
-  padding: 10px 0px;
-
-  .item-icon {
-    font-size: 1.5rem;
-  }
+.item-icon {
+  font-size: 1.5rem;
 }
 
 .sub-menu-link {
