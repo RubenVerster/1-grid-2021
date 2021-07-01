@@ -126,19 +126,20 @@
             </form>
           </div>
         </div>
+        
       </div>
     </div>
     </div>
   </div>
 
   <div id="hero-action" class="section-action  d-flex justify-content-center align-items-lg-center flex-column m-3">
-  <div class="row mb-0 mb-lg-5 mt-3 mt-lg-5 pt-3">
+      <div class="row mb-0 mb-lg-5 mt-3 mt-lg-5 pt-3">
           <div class="text-left col-lg-12 title-text">
               <span class="text-uppercase hero-label">Get online with us</span>
               <a href="#" ><h2 class="pt-2 w-75 hero-title text-secondary hover-scale">How would you like to get online?<i class="fas fa-chevron-right chevron"></i></h2></a>
           </div>
       </div>
-    </div>
+  </div>
 </section>
 
 <section  >
@@ -182,6 +183,60 @@
   </div>
 </section>
 
+<!-- TODO FORK FROM HERE -->
+
+<section>
+  <div class="position-relative">
+    <div class="overlay-container">
+      <div class="overlay-box overlay-img email-img"></div>
+      <div class="overlay-box overlay-red">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+
+
+              <div class=" m-3 mt-5 align-items-lg-center">
+
+              <span class="section-label font-weight-bold">Business Essential</span>
+              <h2 class="section-title-sml font-weight-bold">
+                Business Email
+              </h2>
+              <p class="section-description w-80">Best in class email and collaboration for SMB and Enterprises</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="skew-box"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        .
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+                
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <section class="position-relative">
   <div class="overlay-container">
     <div class="overlay-box overlay-img email-img">
@@ -197,7 +252,8 @@
       </div>
     </div>
   </div>
-  <div id="scrollTrigger" class="skew-box"></div>
+  
+  <div class="skew-box"></div>
 
   <div class="section-action p-3 mb-5 d-flex flex-column align-items-lg-center">
     <div class="section-action-email position-relative mb-2">
@@ -251,8 +307,87 @@
   </div>
 </section>
 
-<section class="position-relative d-flex flex-column flex-lg-row">
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 d-flex flex-column flex-lg-row">
+              
 
+          <div class="multi-overlay-container">
+        <div class="overlay-box overlay-img privacy-protection-img">
+        </div>
+        <div class="overlay-box overlay">
+          <div class="p-3 align-items-lg-center h-100">
+
+            <span class="section-label font-weight-bold">Business Security</span>
+            <div class="section-title-sml font-weight-bold">
+              Privacy & Protection
+            </div>
+            <div class="section-description w-80">Encrypt your data and avoid the 'Not Secure' warnings</div>
+            <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
+              <a href="https://1-grid.com/website-security/">
+                <span class="mr-2 section-action-text text-light">Explore More</span>
+                <i class="fas fa-chevron-right chevron"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+            <div class="multi-overlay-container">
+          <div class="overlay-box overlay-img privacy-protection">
+          </div>
+          <div class="overlay-box overlay-blue">
+            <div class="p-3 align-items-lg-center h-100">
+
+              <span class="section-label font-weight-bold">Website Hosting</span>
+              <div class="section-title-sml font-weight-bold">
+                Web Hosting
+              </div>
+              <div class="section-description w-80">WordPress-ready hosting for any website. Secure and reliable local network
+              </div>
+              <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
+                <a href="https://1-grid.com/web-hosting/">
+                <span class="mr-2 section-action-text text-light">Explore More</span>
+                <i class="fas fa-chevron-right chevron bg-light text-dark"></i>
+                  </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+                <div class="multi-overlay-container">
+            <div class="overlay-box overlay-img servers-img">
+            </div>
+            <div class="overlay-box overlay">
+              <div class="p-3 align-items-lg-center h-100">
+                <span class="section-label font-weight-bold">Enterprise Hosting</span>
+                <div class="section-title-sml font-weight-bold">
+                  Servers
+                </div>
+                <div class="section-description w-80">The highest specification dedicated server available</div>
+                <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
+                  <a href="https://1-grid.com/enterprise-server-south-africa/">
+                    <span class="mr-2 section-action-text text-light">Explore More</span>
+                    <i class="fas fa-chevron-right chevron"></i>
+                    </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="position-relative d-flex flex-column flex-lg-row">
+              
   <div class="multi-overlay-container">
     <div class="overlay-box overlay-img privacy-protection-img">
     </div>
@@ -316,49 +451,56 @@
     </div>
   </div>
 
-</section>
+</section> -->
 
 <section class="d-flex flex-column flex-lg-row justify-content-center text-center mb-5 mt-5">
-  <div class="d-flex flex-column justify-content-between col-lg-4 mb-5">
-    <h2 class="mb-3 text-secondary">Reviewed On</h2>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xs-12 col-lg-12 d-flex flex-column flex-lg-row justify-content-center">
 
-    <a target="_blank" rel="noopener noreferrer"
-      href="https://www.google.com/search?q=1-grid&oq=1-grid+reviews#lrd=0x1dcc5d9012e1d7b5:0x7c925818c86ba776,1">
-      <img class="img-responsive hover-scale"
-        src="<?php echo '/img/home-page/GReview.png' ?>"
-        title="Google reviews" alt="google reviews icon" width="" height="56" /></a>
-    <a target="_blank" rel="noopener noreferrer" href='https://www.hellopeter.com/1-grid'>
-      <img class="img-responsive hover-scale"
-        src="<?php echo '/img/home-page/hp-isp.png' ?>"
-        title="hellopeter" alt="hellopeter icon" width="" height="" /></a>
+        <div class="d-flex flex-column justify-content-between col-lg-4 mb-5">
+          <h2 class="mb-3 text-secondary">Reviewed On</h2>
 
+          <a target="_blank" rel="noopener noreferrer"
+            href="https://www.google.com/search?q=1-grid&oq=1-grid+reviews#lrd=0x1dcc5d9012e1d7b5:0x7c925818c86ba776,1">
+            <img class="img-responsive hover-scale"
+              src="<?php echo '/img/home-page/GReview.png' ?>"
+              title="Google reviews" alt="google reviews icon" width="" height="56" /></a>
+          <a target="_blank" rel="noopener noreferrer" href='https://www.hellopeter.com/1-grid'>
+            <img class="img-responsive hover-scale"
+              src="<?php echo '/img/home-page/hp-isp.png' ?>"
+              title="hellopeter" alt="hellopeter icon" width="" height="" /></a>
+        </div>
+
+        <div class="d-flex flex-column justify-content-between col-lg-4">
+
+          <h2 class="mb-4 text-secondary">Featured On</h2>
+
+          <a target="_blank" rel="noopener noreferrer"
+            href="https://www.capetalk.co.za/podcasts/140/the-kieb68no-ka5b4mmies-show/222095/aspiring-entrepreneurs-get-a-digital-push">
+            <img class="img-responsive mb-3 hover-scale"
+              src="<?php echo '/img/home-page/capetalk.png' ?>"
+              title="CapeTalk" alt="CapeTalk" width="125" height="58" /></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Qf9nwkgtlk4">
+            <img class="img-responsive hover-scale mb-3"
+              src="<?php echo '/img/home-page/expresso.png' ?>"
+              title="Expresso" alt="Expresso" width="145" height="46" /></a>
+          <a target="_blank" rel="noopener noreferrer"
+            href="https://www.702.co.za/podcasts/84/the-best-of-late-night-talk/87518/opportunities-for-young-tech-smart-individuals">
+            <img class="img-responsive hover-scale mb-3"
+              src="<?php echo '/img/home-page/702.png' ?>"
+              title="702" alt="702 icon" width="105" height="47"></a>
+          <a target="_blank" rel="noopener noreferrer"
+            href="https://omny.fm/shows/kfm-drive/bizboost-spiffy-kitchens-and-cupboards">
+            <img class="img-responsive hover-scale"
+              src="<?php echo '/img/home-page/KFM-Logo.png' ?>"
+              title="KFM" alt="KFM icon" width="115" height="46"></a>
+        </div>
+
+      </div>
+    </div>
   </div>
-
-  <div class="d-flex flex-column justify-content-between col-lg-4">
-
-    <h2 class="mb-4 text-secondary">Featured On</h2>
-
-    <a target="_blank" rel="noopener noreferrer"
-      href="https://www.capetalk.co.za/podcasts/140/the-kieb68no-ka5b4mmies-show/222095/aspiring-entrepreneurs-get-a-digital-push">
-      <img class="img-responsive mb-3 hover-scale"
-        src="<?php echo '/img/home-page/capetalk.png' ?>"
-        title="CapeTalk" alt="CapeTalk" width="125" height="58" /></a>
-    <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Qf9nwkgtlk4">
-      <img class="img-responsive hover-scale mb-3"
-        src="<?php echo '/img/home-page/expresso.png' ?>"
-        title="Expresso" alt="Expresso" width="145" height="46" /></a>
-    <a target="_blank" rel="noopener noreferrer"
-      href="https://www.702.co.za/podcasts/84/the-best-of-late-night-talk/87518/opportunities-for-young-tech-smart-individuals">
-      <img class="img-responsive hover-scale mb-3"
-        src="<?php echo '/img/home-page/702.png' ?>"
-        title="702" alt="702 icon" width="105" height="47"></a>
-    <a target="_blank" rel="noopener noreferrer"
-      href="https://omny.fm/shows/kfm-drive/bizboost-spiffy-kitchens-and-cupboards">
-      <img class="img-responsive hover-scale"
-        src="<?php echo '/img/home-page/KFM-Logo.png' ?>"
-        title="KFM" alt="KFM icon" width="115" height="46"></a>
-  </div>
-
+  
 </section>
 
 <?php include 'components/footer.php';
