@@ -26,164 +26,209 @@
 <?php include 'components/navbar-desktop.php'; ?>
 <?php include 'components/navbar-mobile.php'; ?>
 
-<section class="pt-0">
+<section>
+  <div class="position-relative">
+    <div class="overlay-container">
+      <div class="overlay-box overlay-img hero-img"></div>
+      <div class="overlay-box overlay">
+        <div class="container">
+          <div class="row h-100">
+            <div class="col-xs-12 d-flex align-items-lg-center align-items-end">
+              <div class="align-items-lg-center w-100">
 
-  <div class="overlay-container" id="hero-container">
-    <div class="overlay-box overlay-img hero-img">
-  </div>
+                <div class=" mb-2 ml-2 mr-2">
 
-  <div class="overlay-box overlay">
-    <div class="d-flex align-items-end align-items-lg-center justify-content-center h-100">
-      <div class="container mb-2 ml-2 mr-2">
+                  <div class="text-left pt-3 pt-md-0 pt-lg-5 pb-3">
+                    <h3 class="text-uppercase text-light hero-banner">Domain Register & Transfer</h3>
+                    <h1 class="mb-2 mb-lg-4 text-light hero-title w-75">Get a Domain Name for Your Business</h1>
+                  </div>
 
-        <div class="text-left pt-3 pt-md-0 pt-lg-5 pb-3">
-          <h3 class="text-uppercase text-light hero-banner">Domain Register & Transfer</h3>
-          <h1 class="mb-2 mb-lg-4 text-light hero-title w-75">Get a Domain Name for Your Business</h1>
-        </div>
-        
-        <div class="row">
-          <div class="text-center ml-2 mr-2 w-100">
-            <form id="frm-banner-domain-search" action="https://1-grid.com/client/domainchecker.php" method="post" novalidate="novalidate" class="form-inline">
-              <input type="hidden" name="direct" value="true">
-                <div class="input-group w-100 mb-3">
-                  <!-- <div class="input-group-prepend">
-                  <span class="input-group-text"> www</span>
-                  </div> -->
-                  <input id="banner-domain-search" placeholder="businessname.com" class="form-control form-group" type="text" name="domain" size="30">
-                  <!-- <select name="ext">
-                          <option>.co.za</option>
-                          <option>.com</option>
-                          <option>.online</option>
-                          <option>.site</option>
-                          <option>.website</option>
-                          <option>.tech</option>
-                          <option>.store</option>
-                          <option>.africa</option>
-                          <option>.org.za</option>
-                          <option>.org</option>
-                          <option>.co</option>
-                          <option>.net</option>
-                          <option>.singles</option>
-                          <option>.guru</option>
-                          <option>.clothing</option>
-                          <option>.plumbing</option>
-                          <option>.ventures</option>
-                          <option>.bike</option>
-                          <option>.holdings</option>
-                          <option>.photography</option>
-                          <option>.camera</option>
-                          <option>.graphics</option>
-                          <option>.gallery</option>
-                          <option>.equipment</option>
-                          <option>.lighting</option>
-                          <option>.estate</option>
-                          <option>.diamonds</option>
-                          <option>.technology</option>
-                          <option>.contractors</option>
-                          <option>.directory</option>
-                          <option>.construction</option>
-                          <option>.kitchen</option>
-                          <option>.today</option>
-                          <option>.voyage</option>
-                          <option>.tips</option>
-                          <option>.land</option>
-                          <option>.mobi</option>
-                          <option>.tv</option>
-                          <option>.biz</option>
-                          <option>.info</option>
-                          <option>.me</option>
-                          <option>.capetown</option>
-                          <option>.durban</option>
-                          <option>.joburg</option>
-                          <option>.cc</option>
-                          <option>.at</option>
-                          <option>.fm</option>
-                          <option>.name</option>
-                          <option>.us</option>
-                          <option>.co.uk</option>
-                          <option>.bz</option>
-                          <option>.sexy</option>
-                          <option>.company</option>
-                          <option>.center</option>
-                          <option>.systems</option>
-                          <option>.management</option>
-                          <option>.solutions</option>
-                          <option>.support</option>
-                          <option>.email</option>
-                          <option>.domains</option>
-                          <option>.computer</option>
-                          <option>.academy</option>
-                          <option>.training</option>
-                          <option>.builders</option>
-                          <option>.enterprises</option>
-                          <option>.link</option>
-                          <option>.work</option>
-                          <option>.coach</option>
-                          <option>.cloud</option>
-                      </select> -->
-                  <button data-role="submit-domain-search" class="search-button " type="submit"><i class="fas fa-search text-secondary"></i></button>
+                  <div class="row">
+                    <div class="text-center ml-2 mr-2 w-100">
+                      <form id="frm-banner-domain-search" action="https://1-grid.com/client/domainchecker.php"
+                        method="post" novalidate="novalidate" class="form-inline">
+                        <input type="hidden" name="direct" value="true">
+                        <div class="input-group w-100 mb-3">
+                          <!-- <div class="input-group-prepend">
+        <span class="input-group-text"> www</span>
+        </div> -->
+                          <input id="banner-domain-search" placeholder="businessname.com"
+                            class="form-control form-group" type="text" name="domain" size="30">
+                          <!-- <select name="ext">
+                <option>.co.za</option>
+                <option>.com</option>
+                <option>.online</option>
+                <option>.site</option>
+                <option>.website</option>
+                <option>.tech</option>
+                <option>.store</option>
+                <option>.africa</option>
+                <option>.org.za</option>
+                <option>.org</option>
+                <option>.co</option>
+                <option>.net</option>
+                <option>.singles</option>
+                <option>.guru</option>
+                <option>.clothing</option>
+                <option>.plumbing</option>
+                <option>.ventures</option>
+                <option>.bike</option>
+                <option>.holdings</option>
+                <option>.photography</option>
+                <option>.camera</option>
+                <option>.graphics</option>
+                <option>.gallery</option>
+                <option>.equipment</option>
+                <option>.lighting</option>
+                <option>.estate</option>
+                <option>.diamonds</option>
+                <option>.technology</option>
+                <option>.contractors</option>
+                <option>.directory</option>
+                <option>.construction</option>
+                <option>.kitchen</option>
+                <option>.today</option>
+                <option>.voyage</option>
+                <option>.tips</option>
+                <option>.land</option>
+                <option>.mobi</option>
+                <option>.tv</option>
+                <option>.biz</option>
+                <option>.info</option>
+                <option>.me</option>
+                <option>.capetown</option>
+                <option>.durban</option>
+                <option>.joburg</option>
+                <option>.cc</option>
+                <option>.at</option>
+                <option>.fm</option>
+                <option>.name</option>
+                <option>.us</option>
+                <option>.co.uk</option>
+                <option>.bz</option>
+                <option>.sexy</option>
+                <option>.company</option>
+                <option>.center</option>
+                <option>.systems</option>
+                <option>.management</option>
+                <option>.solutions</option>
+                <option>.support</option>
+                <option>.email</option>
+                <option>.domains</option>
+                <option>.computer</option>
+                <option>.academy</option>
+                <option>.training</option>
+                <option>.builders</option>
+                <option>.enterprises</option>
+                <option>.link</option>
+                <option>.work</option>
+                <option>.coach</option>
+                <option>.cloud</option>
+            </select> -->
+                          <button data-role="submit-domain-search" class="search-button " type="submit"><i
+                              class="fas fa-search text-secondary"></i></button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
                 </div>
-            </form>
+
+              </div>
+            </div>
           </div>
         </div>
-        
       </div>
     </div>
-    </div>
-  </div>
 
-  <div id="hero-action" class="section-action  d-flex justify-content-center align-items-lg-center flex-column m-3">
-      <div class="row mb-0 mb-lg-5 mt-3 mt-lg-5 pt-3">
-          <div class="text-left col-lg-12 title-text">
-              <span class="text-uppercase hero-label">Get online with us</span>
-              <a href="#" ><h2 class="pt-2 w-75 hero-title text-secondary hover-scale">How would you like to get online?<i class="fas fa-chevron-right chevron"></i></h2></a>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="d-flex flex-column align-items-lg-center">
+
+            <div class="row">
+              <div class="col-xs-12">
+                <div id="hero-action"
+                  class="section-action  d-flex justify-content-center align-items-lg-center flex-column">
+                  <div class="row">
+                    <div class="text-left col-lg-12 title-text">
+                      <span class="text-uppercase hero-label">Get online with us</span>
+                      <a href="#">
+                        <h2 class="pt-2 w-75 hero-title text-secondary hover-scale">How would you like to get
+                          online?<i class="fas fa-chevron-right chevron"></i></h2>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
+        </div>
       </div>
+    </div>
   </div>
 </section>
-
-<section  >
-  <div class="overlay-container">
-    <div class="overlay-box overlay-img wb-img">
-    </div>
-    <div class="overlay-box overlay">
-      <div class=" m-3 align-items-lg-center">
-
-        <span class="section-label font-weight-bold">Webdesign Tool</span>
-        <div class="section-title font-weight-bold">
-          Site Builder
+<section>
+  <div class="position-relative">
+    <div class="overlay-container">
+      <div class="overlay-box overlay-img wb-img"></div>
+      <div class="overlay-box overlay">
+        <div class="container">
+          <div class="row h-100">
+            <div class="col-xs-12 d-flex align-items-center">
+              <div class=" m-3 align-items-lg-center">
+                <span class="section-label font-weight-bold">Webdesign Tool</span>
+                <div class="section-title font-weight-bold">
+                  Site Builder
+                </div>
+                <div class="section-description w-80">Create your own website in 10 minutes</div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="section-description w-80">Create your own website in 10 minutes</div>
       </div>
     </div>
-  </div>
-  <div class="section-banner d-flex  justify-items-center justify-content-between">
-    <span class="banner-label ml-1">From R109/month</span>
-    <div class="w-75 mt-4 ml-1">
 
-      <div class="banner-text">Choose The Right Package For Your Business</div>
-      <div class="banner-action mt-2 font-weight-bold">Shipped with a FREE domain</div>
-    </div>
-    <a href="https://1-grid.com/website-builder/" class="align-self-center">
-    <i class="fas fa-chevron-right w-10 align-self-center banner-icon p-3 hover-scale"></i>
-  </a>
-  </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-banner d-flex  justify-items-center justify-content-between">
+            <span class="banner-label ml-1">From R109/month</span>
+            <div class="w-75 mt-4 ml-1">
 
-  <div class="section-action d-flex justify-content-center align-items-lg-center flex-column m-3">
-    <h2 class="pt-2 w-75 hero-title text-secondary text-lg-center">Free Professional Layout</h2>
-    <div class="d-flex align-items-center mt-2 hover-scale">
-      <a href="https://1-grid.com/website-builder/">
-      <span class="mr-2 section-action-text">Get Started</span>
-      <i class="fas fa-chevron-right chevron"></i>
-      </a>
-    </div>
-      <img class="section-action-img img-responsive
+              <div class="banner-text">Choose The Right Package For Your Business</div>
+              <div class="banner-action mt-2 font-weight-bold">Shipped with a FREE domain</div>
+            </div>
+            <a href="https://1-grid.com/website-builder/" class="align-self-center">
+              <i class="fas fa-chevron-right w-10 align-self-center banner-icon p-3 hover-scale"></i>
+            </a>
+          </div>
+          <div class=" p-3 mb-5 d-flex flex-column align-items-lg-center">
+
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="section-action d-flex justify-content-center align-items-lg-center flex-column m-3">
+                  <h2 class="pt-2 w-75 hero-title text-secondary text-lg-center">Free Professional Layout</h2>
+                  <div class="d-flex align-items-center mt-2 hover-scale">
+                    <a href="https://1-grid.com/website-builder/">
+                      <span class="mr-2 section-action-text">Get Started</span>
+                      <i class="fas fa-chevron-right chevron"></i>
+                    </a>
+                  </div>
+                  <img class="section-action-img img-responsive
       " src=<?php echo '/img/home-page/mobile-devices.png' ?>
-      alt="mobile devices" />
+                  alt="mobile devices" />
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
-<!-- TODO FORK FROM HERE -->
 
 <section>
   <div class="position-relative">
@@ -191,17 +236,17 @@
       <div class="overlay-box overlay-img email-img"></div>
       <div class="overlay-box overlay-red">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-12">
+          <div class="row h-100">
+            <div class="col-xs-12 d-flex align-items-center">
 
 
               <div class=" m-3 mt-5 align-items-lg-center">
 
-              <span class="section-label font-weight-bold">Business Essential</span>
-              <h2 class="section-title-sml font-weight-bold">
-                Business Email
-              </h2>
-              <p class="section-description w-80">Best in class email and collaboration for SMB and Enterprises</p>
+                <span class="section-label font-weight-bold">Business Essential</span>
+                <h2 class="section-title-sml font-weight-bold">
+                  Business Email
+                </h2>
+                <p class="section-description w-80">Best in class email and collaboration for SMB and Enterprises</p>
               </div>
 
             </div>
@@ -218,92 +263,68 @@
 
     <div class="container">
       <div class="row">
-        .
-      </div>
-    </div>
+        <div class="col-xs-12">
+          <div class=" p-3 mb-5 d-flex flex-column align-items-lg-center">
+            <div class="section-action-email mb-2">
+              <div class="section-action-title font-weight-light text-uppercase">Features</div>
+              <div class="mt-3">
+                <i class="mr-2 fas fa-chevron-right align-self-center email-icon p-2 mb-2"></i>
+                <span class="section-action-subtext">Collaboration Tools</span>
+              </div>
+              <div>
+                <i class="mr-2 fas fa-chevron-right align-self-center email-icon p-2 mb-2"></i>
+                <span class="section-action-subtext">Simple Administration</span>
+              </div>
+              <div>
+                <i class="mr-2 fas fa-chevron-right align-self-center email-icon p-2 mb-2"></i>
+                <span class="section-action-subtext">Scalable Business Solution</span>
+              </div>
+            </div>
+            <div class="row w-100">
+              <div class="col-xs-12">
 
-  </div>
+                <div
+                  class="section-banner-email position-relative d-flex justify-items-center justify-content-between w-100">
+                  <span class="banner-label ml-1">Professional</span>
+                  <div class="w-75 mt-4 ml-1">
 
+                    <div class="banner-text">25GB Storage & 250 Recipients</div>
+                    <div class="banner-action font-weight-bold">Includes FREE .co.za domain</div>
+                  </div>
+                  <div class="justify-self-center align-self-center flex-column text-center">
+                    <div class="email-price">R69</div>
+                    <div>Month</div>
+                  </div>
+                </div>
+                <div
+                  class="section-banner-email position-relative d-flex mb-2 mt-3 justify-items-center justify-content-between w-100">
+                  <span class="banner-label ml-1">Basic</span>
+                  <div class="w-75 mt-4 ml-1">
+                    <div class="banner-text">10GB Storage & 150 Recipients</div>
+                    <div class="banner-action font-weight-bold text-danger">Excludes free .co.za domain</div>
+                  </div>
+                  <div class="justify-self-center align-self-center flex-column text-center">
+                    <div class="email-price">R49</div>
+                    <div>Month</div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-
-  <div class="container">
-
-    <div class="row">
-      <div class="col-xs-12">
-                
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="position-relative">
-  <div class="overlay-container">
-    <div class="overlay-box overlay-img email-img">
-    </div>
-    <div class="overlay-box overlay-red">
-      <div class=" m-3 align-items-lg-center">
-
-        <span class="section-label font-weight-bold">Business Essential</span>
-        <div class="section-title-sml font-weight-bold">
-          Business Email
+            <div class="row mt-5">
+              <div class="col-xs-12">
+                <div class="section-email-text hover-scale">
+                  <a href="https://1-grid.com/email-for-business/">
+                    <span class="mr-2 text-danger">Explore More</span>
+                    <i class="fas fa-chevron-right chevron bg-danger"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="section-description w-80">Best in class email and collaboration for SMB and Enterprises</div>
       </div>
     </div>
-  </div>
-  
-  <div class="skew-box"></div>
-
-  <div class="section-action p-3 mb-5 d-flex flex-column align-items-lg-center">
-    <div class="section-action-email position-relative mb-2">
-      <div class="section-action-title font-weight-light text-uppercase">Features</div>
-      <div class="mt-3">
-        <i class="mr-2 fas fa-chevron-right align-self-center email-icon p-2 mb-2"></i>
-        <span class="section-action-subtext">Collaboration Tools</span>
-      </div>
-      <div>
-        <i class="mr-2 fas fa-chevron-right align-self-center email-icon p-2 mb-2"></i>
-        <span class="section-action-subtext">Simple Administration</span>
-      </div>
-      <div>
-        <i class="mr-2 fas fa-chevron-right align-self-center email-icon p-2 mb-2"></i>
-        <span class="section-action-subtext">Scalable Business Solution</span>
-      </div>
-    </div>
-    <div class="section-banner-email d-flex justify-items-center justify-content-between w-100">
-      <span class="banner-label ml-1">Professional</span>
-      <div class="w-75 mt-4 ml-1">
-
-        <div class="banner-text">25GB Storage & 250 Recipients</div>
-        <div class="banner-action font-weight-bold">Includes FREE .co.za domain</div>
-      </div>
-      <div class="justify-self-center align-self-center flex-column text-center">
-        <div class="email-price">R69</div>
-        <div>Month</div>
-      </div>
-    </div>
-    <div class="section-banner-email d-flex mb-2 mt-3 justify-items-center justify-content-between w-100">
-      <span class="banner-label ml-1">Basic</span>
-      <div class="w-75 mt-4 ml-1">
-        <div class="banner-text">10GB Storage & 150 Recipients</div>
-        <div class="banner-action font-weight-bold text-danger">Excludes free .co.za domain</div>
-      </div>
-      <div class="justify-self-center align-self-center flex-column text-center">
-        <div class="email-price">R49</div>
-        <div>Month</div>
-      </div>
-    </div>
-    <div class="section-email-text hover-scale">
-      <a href="https://1-grid.com/email-for-business/">
-        <span class="mr-2 text-danger">Explore More</span>
-        <i class="fas fa-chevron-right chevron bg-danger"></i>
-      </a>
-    </div>
-  </div>
-</div>
-    
-
   </div>
 </section>
 
@@ -311,31 +332,31 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 d-flex flex-column flex-lg-row">
-              
 
-          <div class="multi-overlay-container">
-        <div class="overlay-box overlay-img privacy-protection-img">
-        </div>
-        <div class="overlay-box overlay">
-          <div class="p-3 align-items-lg-center h-100">
 
-            <span class="section-label font-weight-bold">Business Security</span>
-            <div class="section-title-sml font-weight-bold">
-              Privacy & Protection
-            </div>
-            <div class="section-description w-80">Encrypt your data and avoid the 'Not Secure' warnings</div>
-            <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
-              <a href="https://1-grid.com/website-security/">
-                <span class="mr-2 section-action-text text-light">Explore More</span>
-                <i class="fas fa-chevron-right chevron"></i>
+        <div class="multi-overlay-container">
+          <div class="overlay-box overlay-img privacy-protection-img">
+          </div>
+          <div class="overlay-box overlay">
+            <div class="p-3 align-items-lg-center h-100">
+
+              <span class="section-label font-weight-bold">Business Security</span>
+              <div class="section-title-sml font-weight-bold">
+                Privacy & Protection
+              </div>
+              <div class="section-description w-80">Encrypt your data and avoid the 'Not Secure' warnings</div>
+              <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
+                <a href="https://1-grid.com/website-security/">
+                  <span class="mr-2 section-action-text text-light">Explore More</span>
+                  <i class="fas fa-chevron-right chevron"></i>
                 </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
 
-            <div class="multi-overlay-container">
+        <div class="multi-overlay-container">
           <div class="overlay-box overlay-img privacy-protection">
           </div>
           <div class="overlay-box overlay-blue">
@@ -345,13 +366,14 @@
               <div class="section-title-sml font-weight-bold">
                 Web Hosting
               </div>
-              <div class="section-description w-80">WordPress-ready hosting for any website. Secure and reliable local network
+              <div class="section-description w-80">WordPress-ready hosting for any website. Secure and reliable local
+                network
               </div>
               <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
                 <a href="https://1-grid.com/web-hosting/">
-                <span class="mr-2 section-action-text text-light">Explore More</span>
-                <i class="fas fa-chevron-right chevron bg-light text-dark"></i>
-                  </a>
+                  <span class="mr-2 section-action-text text-light">Explore More</span>
+                  <i class="fas fa-chevron-right chevron bg-light text-dark"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -359,25 +381,25 @@
 
 
 
-                <div class="multi-overlay-container">
-            <div class="overlay-box overlay-img servers-img">
-            </div>
-            <div class="overlay-box overlay">
-              <div class="p-3 align-items-lg-center h-100">
-                <span class="section-label font-weight-bold">Enterprise Hosting</span>
-                <div class="section-title-sml font-weight-bold">
-                  Servers
-                </div>
-                <div class="section-description w-80">The highest specification dedicated server available</div>
-                <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
-                  <a href="https://1-grid.com/enterprise-server-south-africa/">
-                    <span class="mr-2 section-action-text text-light">Explore More</span>
-                    <i class="fas fa-chevron-right chevron"></i>
-                    </a>
-                </div>
+        <div class="multi-overlay-container">
+          <div class="overlay-box overlay-img servers-img">
+          </div>
+          <div class="overlay-box overlay">
+            <div class="p-3 align-items-lg-center h-100">
+              <span class="section-label font-weight-bold">Enterprise Hosting</span>
+              <div class="section-title-sml font-weight-bold">
+                Servers
+              </div>
+              <div class="section-description w-80">The highest specification dedicated server available</div>
+              <div class="d-flex justify-content-center multi-explore ms-3 hover-scale">
+                <a href="https://1-grid.com/enterprise-server-south-africa/">
+                  <span class="mr-2 section-action-text text-light">Explore More</span>
+                  <i class="fas fa-chevron-right chevron"></i>
+                </a>
               </div>
             </div>
           </div>
+        </div>
 
 
       </div>
@@ -500,7 +522,7 @@
       </div>
     </div>
   </div>
-  
+
 </section>
 
 <?php include 'components/footer.php';

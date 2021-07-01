@@ -4,9 +4,6 @@
   position: relative;
 }
 
-#hero-container {
-  height: 60vh;
-}
 #hero-action {
   height: 60vh;
 }
@@ -15,7 +12,7 @@
   font-weight: 400;
   font-size: 1.2rem;
 }
-.hero-title {e
+.hero-title {
   font-weight: 900;
   font-size: 2rem;
 }
@@ -195,15 +192,22 @@
 }
 
 .skew-box {
-  background-color: rgba($color: #fff, $alpha: 1);
+  background-color: white;
   border-radius: 20px;
   position: absolute;
-  top: 42%;
-  left: -1%;
-  height: 24%;
+  top: 35%;
+  left: 0%;
+  height: 11%;
   width: 108%;
-  transform: rotate(1deg) skew(-15deg, 3deg);
+  transform: rotate(1deg) skew(-21deg, 9deg);
   z-index: 9;
+
+  @media (min-width: 992px) {
+    top: 42%;
+    left: 0%;
+    height: 20%;
+    transform: rotate(-4deg) skew(-21deg, 9deg);
+  }
 }
 
 .section-action-email {
@@ -226,16 +230,13 @@
 .section-banner-email {
   z-index: 11;
   margin: 0 auto;
-  left: 0;
-  right: 0;
   background-color: #fff;
   color: #555;
   border-radius: 5px;
   box-shadow: lightgrey 0px 5px 15px;
   padding: 1rem;
   width: 88%;
-  transform: translateY(-50%);
-  max-width: 600px;
+  max-width: 420px;
 
   .banner-text {
     font-size: 0.95rem;
@@ -248,7 +249,6 @@
 }
 
 .section-email-text {
-  margin-top: -2rem;
   font-size: 1.3rem;
   text-transform: uppercase;
 }
