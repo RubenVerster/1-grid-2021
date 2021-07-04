@@ -143,12 +143,11 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="d-flex flex-column align-items-lg-center">
+          <div class="d-flex flex-column">
 
             <div class="row">
               <div class="col-xs-12">
-                <div id="hero-action"
-                  class="section-action  d-flex justify-content-center align-items-lg-center flex-column">
+                <div id="hero-action" class="section-action  d-flex justify-content-center  flex-column">
                   <div class="row">
                     <div class="text-left col-lg-12 title-text">
                       <span class="text-uppercase hero-label">Get online with us</span>
@@ -204,24 +203,24 @@
             </a>
           </div>
           <div class=" p-3 mb-5 d-flex flex-column align-items-lg-center">
-
-            <div class="row">
-              <div class="col-xs-12">
-                <div class="section-action d-flex justify-content-center align-items-lg-center flex-column m-3">
-                  <h2 class="pt-2 w-75 hero-title text-secondary text-lg-center">Free Professional Layout</h2>
-                  <div class="d-flex align-items-center mt-2 hover-scale">
-                    <a href="https://1-grid.com/website-builder/">
+            <div class="row w-100">
+              <div class="col-xs-12 col-lg-6">
+                <div class="section-action d-flex justify-content-center  flex-column m-3">
+                  <h2 class="pt-2 w-75 hero-title text-secondary ">Free Professional Layout</h2>
+                  <div class="d-flex align-items-center mt-2 ">
+                    <a class="hover-scale" href="https://1-grid.com/website-builder/">
                       <span class="mr-2 section-action-text">Get Started</span>
-                      <i class="fas fa-chevron-right chevron"></i>
+                      <i class="fas fa-chevron-right chevron "></i>
                     </a>
                   </div>
-                  <img class="section-action-img img-responsive
-      " src=<?php echo '/img/home-page/mobile-devices.png' ?>
-                  alt="mobile devices" />
+
                 </div>
               </div>
+              <div class="col-xs-12 col-lg-6">
+                <img class="section-action-img img-responsive" src=<?php echo '/img/home-page/mobile-devices.png' ?>
+                alt="mobile devices" />
+              </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -263,10 +262,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-xs-12">
-          <div class=" p-3 mb-5 d-flex flex-column align-items-lg-center">
+
+
+        <div class="col-xs-12 col-lg-6">
+          <div class="p-3 align-items-lg-center">
             <div class="section-action-email mb-2">
-              <div class="section-action-title font-weight-light text-uppercase">Features</div>
+              <h2 class="section-action-title font-weight-light text-uppercase">Features</h2>
               <div class="mt-3">
                 <i class="mr-2 fas fa-chevron-right align-self-center email-icon p-2 mb-2"></i>
                 <span class="section-action-subtext">Collaboration Tools</span>
@@ -280,50 +281,48 @@
                 <span class="section-action-subtext">Scalable Business Solution</span>
               </div>
             </div>
-            <div class="row w-100">
-              <div class="col-xs-12">
+          </div>
+        </div>
 
-                <div
-                  class="section-banner-email position-relative d-flex justify-items-center justify-content-between w-100">
-                  <span class="banner-label ml-1">Professional</span>
-                  <div class="w-75 mt-4 ml-1">
-
-                    <div class="banner-text">25GB Storage & 250 Recipients</div>
-                    <div class="banner-action font-weight-bold">Includes FREE .co.za domain</div>
-                  </div>
-                  <div class="justify-self-center align-self-center flex-column text-center">
-                    <div class="email-price">R69</div>
-                    <div>Month</div>
-                  </div>
-                </div>
-                <div
-                  class="section-banner-email position-relative d-flex mb-2 mt-3 justify-items-center justify-content-between w-100">
-                  <span class="banner-label ml-1">Basic</span>
-                  <div class="w-75 mt-4 ml-1">
-                    <div class="banner-text">10GB Storage & 150 Recipients</div>
-                    <div class="banner-action font-weight-bold text-danger">Excludes free .co.za domain</div>
-                  </div>
-                  <div class="justify-self-center align-self-center flex-column text-center">
-                    <div class="email-price">R49</div>
-                    <div>Month</div>
-                  </div>
-                </div>
-              </div>
+        <div class="col-xs-12 col-lg-6">
+          <div class="section-banner-email position-relative d-flex justify-items-center justify-content-between w-100">
+            <span class="banner-label ml-1">Professional</span>
+            <div class="w-75 mt-4 ml-1">
+              <div class="banner-text">25GB Storage & 250 Recipients</div>
+              <div class="banner-action font-weight-bold">Includes FREE .co.za domain</div>
             </div>
-
-            <div class="row mt-5">
-              <div class="col-xs-12">
-                <div class="section-email-text hover-scale">
-                  <a href="https://1-grid.com/email-for-business/">
-                    <span class="mr-2 text-danger">Explore More</span>
-                    <i class="fas fa-chevron-right chevron bg-danger"></i>
-                  </a>
-                </div>
-              </div>
+            <div class="justify-self-center align-self-center flex-column text-center">
+              <div class="email-price">R69</div>
+              <div>Month</div>
+            </div>
+          </div>
+          <div
+            class="section-banner-email position-relative d-flex mb-2 mt-3 justify-items-center justify-content-between w-100">
+            <span class="banner-label ml-1">Basic</span>
+            <div class="w-75 mt-4 ml-1">
+              <div class="banner-text">10GB Storage & 150 Recipients</div>
+              <div class="banner-action font-weight-bold text-danger">Excludes free .co.za domain</div>
+            </div>
+            <div class="justify-self-center align-self-center flex-column text-center">
+              <div class="email-price">R49</div>
+              <div>Month</div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="row mt-5 mb-5">
+        <div class="col-xs-12 d-flex justify-content-center">
+          <div class="section-email-text hover-scale">
+            <a href="https://1-grid.com/email-for-business/">
+              <span class="mr-2 text-danger">Explore More</span>
+              <i class="fas fa-chevron-right chevron bg-danger"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+
     </div>
   </div>
 </section>

@@ -185,7 +185,9 @@
 .section-action-img {
   position: absolute;
   max-width: 250px;
-  transform: translate(77%, 42%);
+  transform: translate(73%, -112%);
+  z-index: -1;
+
   @media (min-width: 992px) {
     transform: translate(77%, 77%);
   }
@@ -203,7 +205,7 @@
   z-index: 9;
 
   @media (min-width: 992px) {
-    top: 42%;
+    top: 55%;
     left: 0%;
     height: 20%;
     transform: rotate(-4deg) skew(-21deg, 9deg);
